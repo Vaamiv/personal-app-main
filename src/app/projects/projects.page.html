@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Projetos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-list>
+    <ion-item button (click)="abrirModal(
+      'Decodificador de Texto - Oracle ONE',
+      'Este projeto desenvolvido como parte do programa Oracle ONE e Alura consiste em um decodificador de texto que criptografa e descriptografa mensagens com regras simples.',
+      'https://github.com/Vaamiv/Decodificador-alura---Oracle-T6')">
+      Decodificador de Texto - Oracle ONE
+    </ion-item>
+    <ion-item button (click)="abrirModal(
+      'Portfólio Pessoal Atualizado',
+      'Este é um projeto de portfólio pessoal moderno, criado com HTML, CSS e JavaScript, contendo informações, projetos e formas de contato de forma interativa e responsiva.',
+      'https://github.com/Vaamiv/Portf-lio-atualizado')">
+      Portfólio Pessoal Atualizado
+    </ion-item>
+    <ion-item button (click)="abrirModal(
+      'Gerenciador Financeiro',
+      'Um projeto de uma página que funciona como um gerenciador de gastos, mostrando onde a pessoa está gastando o seu dinheiro.',
+      'https://github.com/Vaamiv/Gerenciador-financeiro')">
+      Gerenciador Financeiro
+    </ion-item>
+  </ion-list>
+</ion-content>
